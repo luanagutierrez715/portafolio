@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Luana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+
+  <div class="bg-glow"></div>
+
+  <header>
+    <nav>
+      <a href="#" class="logo">DI.Luana</a>
+      <ul class="nav-links">
+        <li><a href="#sobre-mi" class="nav-btn active" data-tab="sobre-mi">Sobre Mí</a></li>
+        <li><a href="#habilidades" class="nav-btn" data-tab="habilidades">Habilidades</a></li>
+        <li><a href="#proyectos" class="nav-btn" data-tab="proyectos">Proyectos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- SECCIÓN: SOBRE MÍ -->
+    <section id="sobre-mi" class="tab-content active">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <span class="badge"><i class="fa-solid fa-sparkles"></i> Desarrolladora en Crecimiento</span>
+          <h1>¡Hola! Soy <span>Luana</span></h1>
+          <p>Mi nombre es Luana Gutierrez, mi interes es el area de Diseño, disfruto de crear y diseñar cosas nuevas para atraer visualmente la atencion de las personas. Estoy cursando mi ultimo año de secundaria y me interesa encontrar un trabajo relacionado a mi intereses</p>
+          <a href="#proyectos" class="btn btn-primary nav-btn" data-tab="proyectos">
+            Ver Mis Proyectos <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="hero-card">
+          <h3><i class="fa-solid fa-user-astronaut"></i> Mi Enfoque</h3>
+          <p style="color: var(--text-muted); line-height: 1.6;">
+            Diseño código limpio, estructuras bien organizadas y animaciones suaves para mejorar la navegación del usuario. Siempre aprendiendo nuevas herramientas web.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN: HABILIDADES -->
+    <section id="habilidades" class="tab-content">
+      <h2 class="section-title">Mis Habilidades</h2>
+      <p class="section-sub">Tecnologías y herramientas que utilizo en mis desarrollos</p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-info">
+            <span>Conocimiento en photoshop y Illustrator.
+              Involucra el uso de herramientas de recorte, edicion de fotos, diseños personalizados</span>
+            <span>90%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-info">
+            <span><i class="fa-brands fa-css3-alt"></i>Lógica de programación y algoritmos, conocimiento en base a python, c++, HTML, entre otros.</span>
+            <span>75%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-progress" data-width="75%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-info">
+            <span></i>Se busca inicializar propuestas e ideas en base a diseño, Me comunico con en cliente para llevar a cabo su idea</span>
+            <span>90%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-info">
+            <span></i>Pensamiento critico a la hora de desarrollar un diseño de producto.</span>
+            <span>80%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN: PROYECTOS -->
+    <section id="proyectos" class="tab-content">
+      <h2 class="section-title">Proyectos Destacados</h2>
+      <p class="section-sub">Una muestra de lo que he construido recientemente</p>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img"><i class="fa-solid fa-laptop-code"></i></div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Canva</span><span class="tag">Arduino</span><span class="tag">Manual</span>
+            </div>
+            <h3>Autito</h3>
+            <p>Se busco atraer y enriquecer visualmente al usuario para que tuviera interes en el auto tematica "Taxi", se programo y utilizo driver motor, y 2 motorespara que cumplieran su funcion</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img"><i class="fa-solid fa-layer-group"></i></div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">CSS Grid</span><span class="tag">Flexbox</span>
+            </div>
+            <h3>Diseños e Interfaces para empresas de Informatica y Petshop</h3>
+            <p>Maquetación de maquetas dinámicas enfocadas en la experiencia de usuario y accesibilidad.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Cargar Iconos de FontAwesome para LinkedIn y GitHub -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Vincular tu CSS -->
+<link rel="stylesheet" href="style.css">
+
+<section id="contacto" class="container contacto-seccion reveal">
+  <h2>¡Contáctame!</h2>
+  <p>Estoy disponible para nuevos proyectos y colaboraciones. ¡Hablemos!</p>
+  
+  <div class="redes-sociales">
+    <!-- Reemplaza con tus enlaces directos -->
+    <a href="https://www.linkedin.com/in/tu-usuario" target="_blank" rel="noopener noreferrer" class="btn-red btn-linkedin">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer" class="btn-red btn-github">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+  </div>
+</section>
+
+<!-- Vincular tu Script JS al final del body -->
+<script src="script.js"></script>
+  <footer>
+    <p>© 2026 Luana. Diseñado y animado con estilo verde esmeralda.</p>
+  </footer>
+
+  <script>
+    // Navegación por pestañas y animación de barras
+    document.querySelectorAll('.nav-btn').forEach(button => {
+      button.addEventListener('click', (e) => {
+        const tabId = button.getAttribute('data-tab');
+        if (!tabId) return;
+
+        // Actualizar links activos
+        document.querySelectorAll('.nav-links a').forEach(link => link.classList.remove('active'));
+        const activeLink = document.querySelector(`.nav-links a[data-tab="${tabId}"]`);
+        if (activeLink) activeLink.classList.add('active');
+
+        // Mostrar sección correspondiente
+        document.querySelectorAll('.tab-content').forEach(section => {
+          section.classList.remove('active');
+        });
+        const activeSection = document.getElementById(tabId);
+        if (activeSection) {
+          activeSection.classList.add('active');
+          if (tabId === 'habilidades') {
+            animateSkills();
+          }
+        }
+      });
+    });
+
+    // Animación de llenado de habilidades
+    function animateSkills() {
+      const progressBars = document.querySelectorAll('.skill-progress');
+      progressBars.forEach(bar => {
+        const targetWidth = bar.getAttribute('data-width');
+        bar.style.width = '0%';
+        setTimeout(() => {
+          bar.style.width = targetWidth;
+        }, 100);
+      });
+    }
+    
+    // Inicializar barras si la pestaña activa inicial es habilidades
+    window.addEventListener('DOMContentLoaded', () => {
+      if (document.getElementById('habilidades').classList.contains('active')) {
+        animateSkills();
+      }
+    });
+  </script>
+  
+</body>
+</html>
